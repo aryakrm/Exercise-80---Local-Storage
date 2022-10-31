@@ -5,7 +5,6 @@ const user = {
 };
 
 function setLs() {
-  JSON.stringify(user);
   localStorage.setItem("id", `${user.id}`);
   localStorage.setItem("name", `${user.name}`);
   localStorage.setItem("age", `${user.age}`);
